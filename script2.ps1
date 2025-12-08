@@ -1,5 +1,5 @@
 # script3.ps1
-function New-FolderCreation {
+function New-FolderCreation {   
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true)]

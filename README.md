@@ -1,6 +1,6 @@
 # scriptarq
 ![alt text](image.png)
-<img width="1442" height="730" alt="image" src="https://github.com/user-attachments/assets/ca3d03ae-ea89-41ab-9d6c-c60d79722350" />
+![alt text](image-2.png)
 Explicación del código
 #Importa librerías para la interfaz gráfica de powershell
 Add-Type -AssemblyName System.Windows.Forms
@@ -92,4 +92,5 @@ $form.ShowDialog() | Out-Null #Muestra la ventana como un cuadro de diálogo y O
 
 ############# Return values
 return $form.Tag.Box1, $form.Tag.Box2, $form.Tag.Box3 # Una vez cerrada la ventana, estos valores se devuelven al script
-<img width="1421" height="241" alt="image" src="https://github.com/user-attachments/assets/acb0c90b-1b7b-4881-9dec-5b745737e7f8" />
+![alt text](image-1.png)
+
